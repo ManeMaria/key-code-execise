@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+body{
+    width: 100%;
+    margin: 0px auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#section{
+    width: 800px;
+    height: 600px;
+    margin: 0px 0px 0px 400px;
+}
+/*div do número a ser exibido*/
+#areaNumber{
+    margin-right: 300px;
+}
+
+#numberDisplay{
+    margin: 50px 0px 50px 150px;
+    padding-left: 40px;
+    border: none;
+    font-size: 250px;
+    background-color:  rgba(169, 110, 224, 0.096);
+    box-shadow: 2px 1px 1px  rgba(97, 32, 158, 0.966);
+
+}
+#numberDisplay:focus{
+    outline: none;
+}
+div#postClickCode{
+    display: inline-block;
+    font-size: 70px;
+    margin: 20px 420px 50px 270px;
+    padding-left: -10px;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(204, 194, 180);
+}
+
+#areaMsg{
+    display: inline;
+    position: absolute;
+    margin: 50px 250px 100px -100px;
+    padding-left: 50px;
+    font-size: 50px;
+    opacity: 0.5;
+    border:none;
+    text-align: justify;
+    box-shadow: 2px 2px 2px rgb(136, 132, 132);
+    border-radius: 20px;
+}
+#areaMsg:focus{
+    outline:none;
+}
+#footer a{ 
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 0px 50px 550px
+}
+#footer a:hover{
+    color: rgb(110, 108, 98);
+    background-color: rgba(169, 110, 224, 0.336);
+    box-shadow: rgb(94, 32, 151);  
+    transition-delay: 0.5s;
+    border-radius: 20px;
+}
