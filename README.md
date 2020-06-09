@@ -1,2 +1,2 @@
-# key-code-execise
+# key-code-exercise
 copy keycode.info for knowledge
