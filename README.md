@@ -1,2 +1,2 @@
 # key-code-execise
- teste
+copy keycode.info for knowledge
