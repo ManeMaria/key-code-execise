@@ -4,8 +4,9 @@ let showNumber =(()=>{
     let postClickCode = document.querySelector("#postClickCode"); 
     
     document.addEventListener("keydown",(tecla)=>{
-        letterDisplay.innerHTML = ''
+        letterDisplay.innerHTML = '';
         numberDisplay.textContent = tecla.keyCode;
         postClickCode.textContent= String.fromCharCode(tecla.keyCode);
+        letterDisplay.style.cssText = 'display: none';
     })
 })();
