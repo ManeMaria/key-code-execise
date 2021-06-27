@@ -82,3 +82,12 @@ div#postClickCode{
     transition-delay: 0.5s;
     border-radius: 20px;
 }
+
+@media (max-width: 720px){
+    #section{
+        width: 100%;
+    }
+    #numberDisplay{
+        font-size: 180px;
+    }
+}
